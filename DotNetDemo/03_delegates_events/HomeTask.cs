@@ -36,7 +36,7 @@ namespace DotNetDemo._03_delegates_events
         public void AddMark(int m) 
         {
             Marks.Add(m);
-            //MarkChange(m);
+            MarkChange(m);
         }
     }
 
