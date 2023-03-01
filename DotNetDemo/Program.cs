@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DotNetDemo._02_OOP;
 using DotNetDemo._03_delegates_events;
+using DotNetDemo._04_interfaces_generics;
 
 Console.WriteLine("Hello, World!");
 
@@ -29,5 +30,5 @@ Console.WriteLine("Hello, World!");
 //var homeTask = new HomeTask();
 //homeTask.Main();
 
-var service = new DotNetDemo._03_delegates_events.ExtensionMethodsDemo();
+var service = new InterfacesDemo();
 service.Main();
